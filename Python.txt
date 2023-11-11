@@ -1,0 +1,39 @@
+Notas de Python
+
+print:
+
+O "print" é uma tag que serve para mostrar algo em Python como texto, números ou até contas.
+exemplo:
+
+print("Olá")
+
+
+variáveis:
+
+As variaveis é um objeto capaz guardar informações em Python.
+
+exemplo:
+nome = "Tiago"
+idade = 13
+
+Mas podemos juntar o "print" e variáveis:
+
+print(nome,idade)
+
+A virgula serve para separar as variaveis.
+
+input:
+
+O input é uma função capaz de gerar perguntas que podem se respondidas mas só podem ser geradas com uma variavel.
+exemplo:
+nome = input("Qual é o seu nome? ")
+
+obs: Dê espaço antes da segunda aspa para a resposta não ficar colada na pergunta, mas não é obrigatorio.
+
+
+formatação:
+
+A formatação serve principalmente para colocar as variaveis em prints mas de forma mais organizada, utilizando "{}" e a tag "format".
+exemplo:
+nome = input("Qual é o seu nome? ")  
+print("Prazer em te conhecer {}!".format(nome))
