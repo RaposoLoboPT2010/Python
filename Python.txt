@@ -33,7 +33,46 @@ obs: Dê espaço antes da segunda aspa para a resposta não ficar colada na perg
 
 formatação:
 
-A formatação serve principalmente para colocar as variaveis em prints mas de forma mais organizada, utilizando "{}" e a tag "format".
+A formatação serve para colocar as variaveis em prints mas de forma mais organizada, utilizando as chavetas ({}) e a tag ".format". Mas se quiseres repetir a mesma variável, basta começar a contar a partir de 0 e o número em que a variável estiver, colocas esse número dentro das chavetas em que queres repetir a variável.
 exemplo:
 nome = input("Qual é o seu nome? ")  
 print("Prazer em te conhecer {}!".format(nome))
+
+Tipos Primitivos:
+int: números inteiros.
+exemplo:
+1, 2, 3, 4, 5, etc...
+
+float: números decimais.
+exemplo:
+0.5, 1.0, etc...
+
+bool: valores logicos.
+exemplo:
+True, False.
+
+str: texto (string).
+exemplo:
+"Olá", "Mundo", "1", "0.5".
+
+
+Forma de mudar o tipo dos inputs:
+
+Basta colocar o nome do tipo primitivo desejado e depois o input entre parentises.
+exemplo:
+num = int(input("Diga um número: "))
+
+obs: o "input" já é naturalmente "str" então não é necéssario colocar "str" antes do input.
+
+
+comentário:
+
+Basta colocar um estag (#).
+
+
+tags começadas por ".is":
+
+São tags usadas para prguntar se o valor de alguma variável, pode ser convertido para algum tipo primitivo ou outra coisa, mas é precisso pesquisar para saber toda e o que fazem. Não esquecer de colocar parentises no fim da tag.
+exemplo:
+algo = input("Diga algo: ")
+print("algo.isnumeric()")
