@@ -76,3 +76,53 @@ São tags usadas para prguntar se o valor de alguma variável, pode ser converti
 exemplo:
 algo = input("Diga algo: ")
 print("algo.isnumeric()")
+
+
+Operadores Aritméticos:
+
+Adição: +
+exemplo:
+5 + 2 == 7
+
+Subtração: -
+exemplo:
+5 - 2 == 3
+
+Multiplicação: *
+exemplo:
+5 * 2 == 10
+
+Divisão: /
+exemplo:
+5 / 2 == 2.5
+
+Potência: **
+exemplo:
+5 ** 2 == 25
+
+Divisão Inteira: //
+exemplo:
+5 // 2 == 2
+
+Resto da Divisão: %
+exemplo:
+5 % 2 == 1
+
+obs: Em Python o "igual" é representado assim: "==".
+
+
+Ordem dos Operadores Aritméticos:
+
+() -> ** -> *, /, //, % -> +, -
+
+
+quebra de linha do print:
+
+Para quebrar a liha do print basta colocar "\n" no local onde quer quebrar.
+
+
+Operadores Aritméticos com strings:
+
+Alguns operadores podem ser usados com strings como o "+" e "*" para concatenar(+) ou repetir(*)
+exemplo:
+print("=" * 12)
