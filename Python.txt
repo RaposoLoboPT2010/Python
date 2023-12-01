@@ -72,7 +72,7 @@ Basta colocar um estag (#).
 
 tags começadas por ".is":
 
-São tags usadas para prguntar se o valor de alguma variável, pode ser convertido para algum tipo primitivo ou outra coisa, mas é precisso pesquisar para saber toda e o que fazem. Não esquecer de colocar parentises no fim da tag.
+São tags usadas para prguntar se o valor de alguma variável, pode ser convertido para algum tipo primitivo ou outra coisa, mas é preciso pesquisar para saber toda e o que fazem. Não esquecer de colocar parentises no fim da tag.
 exemplo:
 algo = input("Diga algo: ")
 print("algo.isnumeric()")
@@ -126,3 +126,19 @@ Operadores Aritméticos com strings:
 Alguns operadores podem ser usados com strings como o "+" e "*" para concatenar(+) ou repetir(*)
 exemplo:
 print("=" * 12)
+
+
+importar bibliotecas:
+
+podemos importar bibliotecas em python com a tag "import" mas para usar uma tag dessa biblioteca é preciso colocar antes o nome da biblioteca, um ponto, e depois a tag.
+exemplo:
+import math
+math.sqrt
+
+mas se quiseres importar apenas uma tag de uma biblioteca usamos a tag "from" antes do nome da biblioteca, a segir colocamos a tag "import" e depois colocamos o nome da tag que queres importar e não será preciso colocar o nome da biblioteca antes da tag.
+exemplo:
+from math import sqrt
+
+Ou podemos intalar bibliotecas. Podemos instalar bibliotecas no PyPI que pode ser acessado a partir do site oficial do python, o python.org, pesquisando qual biblioteca queres e depois vais ao comand prompt do windows ou do VSCode com a tag "pip install (biblioteca)", para desinstalar bibliotecas usamos a tag "pip unistall (biblioteca)" e para instalar atualizações usamos a tag " pip install –upgrade (biblioteca)" mas exixtem outros comandos possíveis.
+
+lista uma lista em python é feita com parêntises retos "[]".
